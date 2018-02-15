@@ -4,48 +4,18 @@
     <meta charset="UTF-8">
     <title>Estudio Davi</title>
 <style>
-    /*.logo {
+    logo {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    .img_one {
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        height: 300px;
-        border-radius: 150px;
-        background-size: cover;
-        background-color: darkslategrey;
 
-
+    table{
+        margin: auto;
     }
+    th, td{
 
-    .img_one:hover {
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        height: 300px;
-        opacity: 0.5;
-        background:red;
-        transition: all 0.75s ease-in-out;
-        border-radius: 150px;
-        background-size: cover;
-
-    }
-    #abt_one {
-        display:none;
-        text-transform: uppercase;
-        padding-top: 100px;
-        padding-right: 110px;
-        padding-left: 230px;
-        padding-bottom: 110px;
-        font-size: 35px;
-        position: absolute;
-
-    }*/
-    .logo{
-        position: absolute;
+        padding: 1em;
     }
 
     ul {
@@ -67,23 +37,29 @@
     .image {
         display: block;
         position: relative;
+        border-radius: 5px;
+        width: 85%;
 
     }
 
     .overlay {
         position: absolute;
+        width: 85%;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
         opacity: 0;
         transition: .5s ease;
-        background-color: darkslategrey;
+        background-color: black;
+        border-radius: 5px;
     }
 
     .container:hover .overlay {
-        opacity: 0.5;
-        background-color: darkslategrey;
+        opacity: 1;
+        width: 85%;
+        background-color:rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
     }
 
     .text {
@@ -105,84 +81,96 @@
 
 
 <img src="logo-estudio-davi.png" class="logo">
-    <ul style="list-style-type:none">
-        <li>
-        <a href="http://www.estudiodavi.com/product/tangos">
-        <div class="container">
+<table>
+    <tr>
+        <th> </th>
+        <th> </th>
+        <th> </th>
+    </tr>
+
+    <tr>
+        <td>       <a href="http://www.estudiodavi.com/product/rayo-del-sol-3">
+            <div class="container">
             <img src="sol-mezcla-3dot-still-4.jpg" alt="Saucy Earrings... Trust me" class="image">
             <div class="overlay">
                 <div class="text">MEZCLA<br>
-                $135</div>
+                    $135.00</div>
             </div>
         </div>
-        </a>
-        </li>
-    </ul>
-<ul style="list-style-type:none">
-        <li>
-            <a href="http://www.estudiodavi.com/product/tangos">
-                <div class="container">
-                    <img src="flamenco-nuevo-black-flatdot-still-1.jpg" alt="Saucy Earrings... Trust me" class="image">
-                    <div class="overlay">
-                        <div class="text">NUEVO<br>
-                            $95</div>
-                    </div>
-                </div>
             </a>
-        </li>
-</ul>
-<ul style="list-style-type:none">
-        <li>
+        </td>
+        <td>
+            <a href="http://www.estudiodavi.com/product/flamenco-square-black">
+            <div class="container">
+                <img src="flamenco-nuevo-black-flatdot-still-1.jpg" alt="Saucy Earrings... Trust me" class="image">
+                <div class="overlay">
+                    <div class="text">NUEVO<br>
+                        $95.00</div>
+                </div>
+            </div>
+        </a>
+        </td>
+        <td>
             <a href="http://www.estudiodavi.com/product/tangos">
                 <div class="container">
                     <img src="flamenco-drop-colordot-mint-still-6.jpg" alt="Saucy Earrings... Trust me" class="image">
                     <div class="overlay">
                         <div class="text">TANGOS<br>
-                            $115</div>
+                            $115.00</div>
                     </div>
                 </div>
             </a>
-        </li>
-</ul>
-<ul style="list-style-type:none">
-        <li>
-            <a href="http://www.estudiodavi.com/product/tangos">
+
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <a href="http://www.estudiodavi.com/product/media-luna">
                 <div class="container">
                     <img src="mesomod-medialuna-bigdot-still-2.jpg" alt="Saucy Earrings... Trust me" class="image">
                     <div class="overlay">
                         <div class="text">MEDIA-LUNA<br>
-                            $135</div>
+                            $135.00</div>
                     </div>
                 </div>
             </a>
-        </li>
-</ul>
-<ul style="list-style-type:none">
-        <li>
-            <a href="http://www.estudiodavi.com/product/tangos">
+        </td>
+        <td>
+            <a href="http://www.estudiodavi.com/product/ojos-oro">
                 <div class="container">
                     <img src="mesomod-ojo-bigdot-still-2.jpg" alt="Saucy Earrings... Trust me" class="image">
                     <div class="overlay">
                         <div class="text">OJO<br>
-                            $135</div>
+                            $135.00</div>
                     </div>
                 </div>
             </a>
-        </li>
-</ul>
-<ul style="list-style-type:none">
-        <li>
-            <a href="http://www.estudiodavi.com/product/tangos">
+
+        </td>
+        <td>
+
+            <a href="http://www.estudiodavi.com/product/one-fish">
                 <div class="container">
                     <img src="grafica-onefish-still-1.jpg" alt="Saucy Earrings... Trust me" class="image">
                     <div class="overlay">
                         <div class="text">TANGOS<br>
-                            $75</div>
+                            $75.00</div>
                     </div>
                 </div>
             </a>
-        </li>
-</ul>
+        </td>
+
+    </tr>
+</table>
+
+
+
+
+
+
+
+
 
 </body>
 </html>
